@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina web Roberto Jaramillo</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div id="header">
+
+            <p> <a href="#"><img class="container-logo-img" src="images/logo java 3.png" width="300px"></a>
+
+            </p>
+
+
+            <hr style="width: 1280px; height: 1/2px; background: rgba(243, 5, 5, 0.144);">
+            <a name="volver">
+
+            </a>
+            <div class="menu ">
+                <ul>
+                    <li><a href="contactos.html">CONTACTOS</a></li>
+                    <li><a href="produccion multimedia.html">DISEÑO Y COMUNICACION</a></li>
+
+                    <li><a href="" style="background: none; color: aliceblue;">
+                            <center></center>SERVICIOS
+                        </a>
+
+                        <ul>
+
+                            <li style="font-size: small;"><a href="Restauracion pintura de caballete.html"> Pintura
+                                    Caballete</a></li><br />
+                            <li style="font-size: small;"><a href="Restauracion pintura mural.html">
+                                    <center>Pintura Mural</center>
+                                </a></li>
+
+
+
+
+                        </ul>
+                    </li>
+
+
+                    <li><a href="proyectos.html">PROYECTOS</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="body">
+
+            <a href="" target="_blank"></a>
+
+
+
+
+            <img src="images/detalle puerta sta catalina.jpg" width="1280" height="400" />
+
+
+
+
+            <p><a href="" target="_blank"></a> <br />
+            </p>
+
+
+            <p> "Bienvenidos a CustodioArte, donde la pasión por el arte y la devoción se encuentran. Somos una empresa
+                ecuatoriana
+                especializada en producción multimedia y conservación de obras de arte, con un enfoque particular
+                en el arte sacro. Nuestro trabajo va más allá de la simple conservación; nos dedicamos a elaborar
+                la identidad corporativa de iglesias y otras instituciones religiosas, asegurando que su rica historia y
+                significado se preserven y se presenten de manera respetuosa y atractiva.
+
+                Con años de experiencia en nuestro haber, nos enorgullece ser custodios de arte sacro, trabajando con
+                diligencia y responsabilidad para garantizar que estas preciosas obras de arte perduren para las
+                generaciones futuras. Nuestros valores de cumplimiento, experiencia y responsabilidad son el núcleo de
+                todo lo que hacemos.
+
+                En CustodioArte, no solo conservamos las obras de arte, sino que también conservamos la fe y la devoción
+                que estos
+                magníficos trabajos representan. Únete a nosotros en este viaje de preservación y celebración del arte
+                sacro." </p>
+
+
+            </h3>
+
+            <div class="return">
+                <p><a href="#"><img class="container-logo-img" src="images/flecha-hacia-arriba.png"
+                            width="30"></a></p>
+            </div>
+
+
+
+            <a name="boton4">
+                <h2></h2>
+            </a>
+            </h4>
+
+
+            <footer>
+
+                <div class="footer_top">
+
+
+                    <p> <a href="#"><img class="container-logo-img" src="images/logo java 3.png"
+                                width="150px"></a>
+
+                    </p>
+                    <div class="col-md-4">
+
+                        <div class="footer-contact">
+                            <h2>CONTACTOS</h2>
+                            <p><strong>Teléfono:</strong> 0986253359</a><br>
+                                <strong>Correo:</strong> <a href="mailto:custodioarte2023@gmail.com"
+                                    style="color: beige;">custodioarte2023@gmail.com</a></span></span>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>DIRECCION</h2>
+                                <p><strong><span style="text-align: left;">Dirección: </span></strong><span
+                                        style="text-align: left;">Nicolas Moreno 6713 y la Bota, </span><span
+                                        style="text-align: left;">&nbsp;primer piso – Quito (Ecuador) </span><span
+                                        style="text-align: left;"><span>
+                                            <a href="mailto:custodioarte2023@gmail.com"
+                                                style="color: rgb(0, 26, 255);"></a>
+                                </p>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="copy_txt">
+                                    <p>Copyright © 2023 Designed by <span>Roberto Jaramillo</span></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </footer>
+
+        </div>
+
+    </div>
+
+    </div>
+    <script>
+        var lastImg = 1; //Set initial thumbnail and preview
+        document.getElementById(0).src = document.getElementById(lastImg).src;
+        document.getElementById(lastImg).className = "thumb selected";
+
+        function preview(img) {
+            document.getElementById(lastImg).className = "thumb normal";
+            img.className = "thumb selected";
+            document.getElementById(0).src = img.src;
+            lastImg = img.id
+        }
+    </script>
+
+</body>
+
+</html>
